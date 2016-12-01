@@ -31,6 +31,7 @@ to build a neo, 6 orders must be placed from the following sources:
 
 The total cost is about $700.
 
+You can also download the Gerbers and make the Digikey order through this [kitnic.it page](https://kitnic.it/boards/github.com/commaai/neo).
 
 Directory structure
 ------
