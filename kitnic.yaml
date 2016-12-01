@@ -1,0 +1,4 @@
+color: purple
+bom: parts/1-click-bom.tsv
+gerbers: board/gerbers
+site: http://comma.ai
