@@ -7,7 +7,7 @@ P12372-ND,1,1,C14,330uF,radial
 1276-1784-1-ND,2,1,C8,4.7uF,0603
 S1011EC-40-ND,1,1,J1,uart connector,thru hole-6
 WM1731-ND ,1,1,J2,fan connector,thru hole-2
-1175-1008-ND,1,1,J3,usb a,smd-4
+WM17118-ND,1,1,J3,usb a,smd-4
 AE10398-ND,1,1,J4,rj45,thru hole-8
 670-2294-ND,1,1,J5,jae 20 pin,thru hole-20
 475-1410-1-ND,2,1,LED1,green,0805

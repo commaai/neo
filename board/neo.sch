@@ -7632,7 +7632,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <segment>
 <pinref part="U1" gate="G$1" pin="PC2-ADC12"/>
 <wire x1="73.66" y1="104.14" x2="63.5" y2="104.14" width="0.1524" layer="91"/>
-<label x="63.5" y="104.14" size="1.9304" layer="95"/>
+<label x="63.5" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USB_D+" class="0">
@@ -7681,12 +7681,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <wire x1="251.46" y1="99.06" x2="248.92" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="99.06" x2="248.92" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PC3-ADC13"/>
-<wire x1="73.66" y1="101.6" x2="63.5" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
