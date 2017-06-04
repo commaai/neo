@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="8.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -159,6 +159,7 @@ panda</text>
 <text x="54.0512" y="49.4792" size="1.27" layer="26" rot="MR0">secondary</text>
 <text x="27.0764" y="33.9852" size="1.016" layer="26" rot="MR270">TX</text>
 <text x="27.051" y="31.4706" size="1.016" layer="26" rot="MR270">RX</text>
+<circle x="73.1012" y="38.5064" radius="0.113590625" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -684,17 +685,17 @@ design rules under a new name.</description>
 <element name="U$1" library="comma.ai" package="PANDA-FOOT" value="PANDA" x="49.6316" y="36.1696" rot="MR0"/>
 <element name="J2" library="comma.ai" package="GLX-S-88M" value="main" x="31.623" y="55.3974" smashed="yes" rot="MR180">
 <attribute name="MF" value="" x="31.623" y="55.3974" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="31.623" y="55.3974" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="" x="31.623" y="55.3974" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="31.623" y="55.3974" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="23.495" y="65.0494" size="0.8128" layer="26" rot="MR180"/>
+<attribute name="OC_FARNELL" value="unknown" x="31.623" y="55.3974" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="31.623" y="55.3974" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="J3" library="comma.ai" package="GLX-S-88M" value="secondary" x="50.8" y="55.3974" smashed="yes" rot="MR180">
 <attribute name="MF" value="" x="50.8" y="55.3974" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="50.8" y="55.3974" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="" x="50.8" y="55.3974" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="50.8" y="55.3974" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="42.672" y="65.0494" size="0.8128" layer="26" rot="MR180"/>
+<attribute name="OC_FARNELL" value="unknown" x="50.8" y="55.3974" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="50.8" y="55.3974" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="J4" library="comma.ai" package="1.25CONN" value="FANCONN" x="67.564" y="61.976" rot="MR90"/>
 <element name="R7" library="comma.ai" package="0603-R" value="1k" x="63.0682" y="55.2196" smashed="yes" rot="R90">
@@ -704,12 +705,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="68.58" y="57.1246" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="Q1" library="SparkFun-DiscreteSemi" package="SOT23-3" value="MMBT2222A" x="62.738" y="63.2968" smashed="yes">
-<attribute name="PROD_ID" value="TRANS-08049" x="57.658" y="55.6768" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="60.3885" y="64.643" size="0.8128" layer="25"/>
+<attribute name="PROD_ID" value="TRANS-08049" x="57.658" y="55.6768" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q4" library="SparkFun-DiscreteSemi" package="SOT23-3" value="MMBT2222A" x="50.2158" y="36.9316" smashed="yes">
-<attribute name="PROD_ID" value="TRANS-08049" x="46.4058" y="42.0116" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="47.6123" y="38.4302" size="0.8128" layer="25"/>
+<attribute name="PROD_ID" value="TRANS-08049" x="46.4058" y="42.0116" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R9" library="comma.ai" package="0603-R" value="1k" x="48.1584" y="22.7838" smashed="yes" rot="R180">
 <attribute name="NAME" x="51.4476" y="23.0696" size="0.8128" layer="25" rot="R180"/>

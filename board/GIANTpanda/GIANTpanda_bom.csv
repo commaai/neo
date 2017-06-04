@@ -1,0 +1,11 @@
+digikey part num,order qty,qty used,ref des,value,footprint
+1175-1008-ND,1,1,J1,usb a,smd-4
+AE10398-ND,2,2,"J2, J3",rj45,thru hole-8
+WM1731-ND ,1,1,J4,fan connector,thru hole-2
+S1011EC-40-ND,1,1,J5,uart connector,thru hole-6
+475-1410-1-ND,2,1,LED1,green,0805
+MMBT2222ALT1GOSCT-ND,3,2,"Q1, Q4",mmbt2222a,sot23-3
+311-10KGRCT-ND,10,1,R8,10k,0603
+311-1.0KGRCT-ND,10,3,"R1, R7, R9",1k,0603
+311-2.7KGRCT-ND,10,1,R5,2.7k,0603
+P12961SCT-ND,1,1,SW1,spst,smd-4
