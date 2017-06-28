@@ -159,7 +159,7 @@ panda</text>
 <text x="54.0512" y="49.4792" size="1.27" layer="26" rot="MR0">secondary</text>
 <text x="27.0764" y="33.9852" size="1.016" layer="26" rot="MR270">TX</text>
 <text x="27.051" y="31.4706" size="1.016" layer="26" rot="MR270">RX</text>
-<circle x="73.1012" y="38.5064" radius="0.113590625" width="0.1524" layer="21"/>
+<circle x="73.1012" y="38.5064" radius="0.113590625" width="0.1524" layer="22"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
