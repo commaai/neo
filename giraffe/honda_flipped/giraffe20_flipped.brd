@@ -1075,7 +1075,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="53.4162" y1="25.273" x2="29.1084" y2="25.273" width="1.27" layer="16"/>
 <wire x1="29.1084" y1="25.273" x2="28.4226" y2="25.9588" width="1.27" layer="16"/>
 <wire x1="28.4226" y1="25.9588" x2="28.4226" y2="30.2514" width="1.27" layer="16"/>
-<via x="28.4226" y="30.2514" extent="1-16" drill="0.55"/>
+<via x="28.4226" y="30.2514" extent="1-16" drill="0.6"/>
 <wire x1="28.4226" y1="30.2514" x2="28.194" y2="30.48" width="1.27" layer="1"/>
 <wire x1="28.194" y1="30.48" x2="6.35" y2="30.48" width="1.27" layer="1"/>
 <wire x1="6.35" y1="30.48" x2="5.664" y2="29.794" width="1.27" layer="1"/>
