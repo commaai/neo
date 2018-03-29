@@ -1,7 +1,7 @@
 pedal
 =====
 
-<img src="https://github.com/commaai/neo/blob/master/pedal/pedal.jpg">
+<img src="https://github.com/commaai/neo/blob/master/pedal/pedal_small.jpg">
 
 This is the open source hardware for the comma pedal. It borrows from the NEO board.
 
