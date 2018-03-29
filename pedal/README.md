@@ -1,3 +1,8 @@
+pedal
+=====
+
+<img src="https://github.com/commaai/neo/blob/master/pedal/pedal.jpg">
+
 This is the open source hardware for the comma pedal. It borrows from the NEO board.
 
 The comma pedal is a gas pedal interceptor for Honda/Acura. It allows you to "virtually" press the pedal.
