@@ -1,6 +1,8 @@
 neo
 =====
 
+<b>NOTE: The NEO is deprecated. Check out the <a href="https://shop.comma.ai/products/eon-dashcam-devkit">EON</a> for the future</b>
+
 <img src="https://github.com/commaai/neo/blob/master/neo.png">
 
 The neo is an open source robotics research platform. It is powered by a OnePlus 3 smartphone and an [STM32F205](http://www.st.com/en/microcontrollers/stm32f2x5.html?querycriteria=productId=LN1433)-based CAN interface board, in a 3d-printed housing with active cooling.
