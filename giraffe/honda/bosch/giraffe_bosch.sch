@@ -543,19 +543,19 @@ Source: GLX-S-88M.pdf</description>
 </library>
 <library name="Souers">
 <packages>
-<package name="TE/AMP_D2100_12_PIN">
+<package name="HONDABOSCH_12_PIN">
 <pad name="P4" x="0" y="0" drill="1.1"/>
 <pad name="P5" x="-2.5" y="0" drill="1.1"/>
 <pad name="P3" x="2.5" y="0" drill="1.1"/>
 <pad name="P6" x="-5" y="0" drill="1.1"/>
 <pad name="P2" x="5" y="0" drill="1.1"/>
 <pad name="P1" x="7.5" y="0" drill="1.1"/>
-<pad name="P12" x="-5" y="-3.75" drill="1.1"/>
-<pad name="P11" x="-2.5" y="-3.75" drill="1.1"/>
-<pad name="P10" x="0" y="-3.75" drill="1.1"/>
-<pad name="P9" x="2.5" y="-3.75" drill="1.1"/>
-<pad name="P8" x="5" y="-3.75" drill="1.1"/>
-<pad name="P7" x="7.5" y="-3.75" drill="1.1"/>
+<pad name="P12" x="-5" y="-3.6" drill="1.1"/>
+<pad name="P11" x="-2.5" y="-3.6" drill="1.1"/>
+<pad name="P10" x="0" y="-3.6" drill="1.1"/>
+<pad name="P9" x="2.5" y="-3.6" drill="1.1"/>
+<pad name="P8" x="5" y="-3.6" drill="1.1"/>
+<pad name="P7" x="7.5" y="-3.6" drill="1.1"/>
 <wire x1="-7.62" y1="2.54" x2="10.16" y2="2.54" width="0.127" layer="21"/>
 <wire x1="10.16" y1="2.54" x2="10.16" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="10.16" y1="-6.35" x2="-7.62" y2="-6.35" width="0.127" layer="21"/>
@@ -574,7 +574,7 @@ Source: GLX-S-88M.pdf</description>
 </package>
 </packages>
 <symbols>
-<symbol name="TE/AMP_D2100_12_PIN">
+<symbol name="HONDABOSCH_12_PIN">
 <wire x1="-22.86" y1="17.78" x2="22.86" y2="17.78" width="0.254" layer="94"/>
 <wire x1="22.86" y1="17.78" x2="22.86" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="22.86" y1="-17.78" x2="-22.86" y2="-17.78" width="0.254" layer="94"/>
@@ -606,12 +606,12 @@ Source: GLX-S-88M.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TE/AMP_D2100_12_PIN">
+<deviceset name="HONDABOSCH_12_PIN">
 <gates>
-<gate name="G$1" symbol="TE/AMP_D2100_12_PIN" x="0" y="0"/>
+<gate name="G$1" symbol="HONDABOSCH_12_PIN" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TE/AMP_D2100_12_PIN">
+<device name="12_PIN" package="HONDABOSCH_12_PIN">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P1"/>
 <connect gate="G$1" pin="P$10" pad="P10"/>
@@ -669,8 +669,8 @@ Source: GLX-S-88M.pdf</description>
 <parts>
 <part name="J3" library="comma.ai" deviceset="OBDII" device="FEMALE"/>
 <part name="SW1" library="comma.ai" deviceset="4XDPST" device="SMT"/>
-<part name="J1_CAM" library="Souers" deviceset="TE/AMP_D2100_12_PIN" device=""/>
-<part name="J2_RADAR" library="Souers" deviceset="TE/AMP_D2100_12_PIN" device=""/>
+<part name="J1_CAM" library="Souers" deviceset="HONDABOSCH_12_PIN" device="12_PIN"/>
+<part name="J2_RADAR" library="Souers" deviceset="HONDABOSCH_12_PIN" device="12_PIN"/>
 <part name="J4" library="comma.ai" deviceset="VERT_RJ45" device=""/>
 <part name="U$2" library="Souers" deviceset="PJ-006A-SMT" device=""/>
 </parts>

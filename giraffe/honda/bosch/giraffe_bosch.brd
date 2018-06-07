@@ -424,19 +424,19 @@ Source: GLX-S-88M.pdf</description>
 </library>
 <library name="Souers">
 <packages>
-<package name="TE/AMP_D2100_12_PIN">
+<package name="HONDABOSCH_12_PIN">
 <pad name="P4" x="0" y="0" drill="1.1"/>
 <pad name="P5" x="-2.5" y="0" drill="1.1"/>
 <pad name="P3" x="2.5" y="0" drill="1.1"/>
 <pad name="P6" x="-5" y="0" drill="1.1"/>
 <pad name="P2" x="5" y="0" drill="1.1"/>
 <pad name="P1" x="7.5" y="0" drill="1.1"/>
-<pad name="P12" x="-5" y="-3.75" drill="1.1"/>
-<pad name="P11" x="-2.5" y="-3.75" drill="1.1"/>
-<pad name="P10" x="0" y="-3.75" drill="1.1"/>
-<pad name="P9" x="2.5" y="-3.75" drill="1.1"/>
-<pad name="P8" x="5" y="-3.75" drill="1.1"/>
-<pad name="P7" x="7.5" y="-3.75" drill="1.1"/>
+<pad name="P12" x="-5" y="-3.6" drill="1.1"/>
+<pad name="P11" x="-2.5" y="-3.6" drill="1.1"/>
+<pad name="P10" x="0" y="-3.6" drill="1.1"/>
+<pad name="P9" x="2.5" y="-3.6" drill="1.1"/>
+<pad name="P8" x="5" y="-3.6" drill="1.1"/>
+<pad name="P7" x="7.5" y="-3.6" drill="1.1"/>
 <wire x1="-7.62" y1="2.54" x2="10.16" y2="2.54" width="0.127" layer="21"/>
 <wire x1="10.16" y1="2.54" x2="10.16" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="10.16" y1="-6.35" x2="-7.62" y2="-6.35" width="0.127" layer="21"/>
@@ -649,8 +649,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="28.7834" y="29.124" size="1.27" layer="25" rot="R270"/>
 </element>
 <element name="U$1" library="oldlib" package="LOGO" value="" x="1.1176" y="1.0414"/>
-<element name="J1_CAM" library="Souers" package="TE/AMP_D2100_12_PIN" value="TE/AMP_D2100_12_PIN" x="12.7" y="31.75" locked="yes"/>
-<element name="J2_RADAR" library="Souers" package="TE/AMP_D2100_12_PIN" value="TE/AMP_D2100_12_PIN" x="12.7" y="12.7" locked="yes"/>
+<element name="J1_CAM" library="Souers" package="HONDABOSCH_12_PIN" value="HONDABOSCH_12_PIN12_PIN" x="12.7" y="31.75" locked="yes"/>
+<element name="J2_RADAR" library="Souers" package="HONDABOSCH_12_PIN" value="HONDABOSCH_12_PIN12_PIN" x="12.7" y="12.7" locked="yes"/>
 <element name="J4" library="comma.ai" package="GLX-S-88M" value="VERT_RJ45" x="46.99" y="10.16" locked="yes" rot="R180">
 <attribute name="MF" value="" x="46.99" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="46.99" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
