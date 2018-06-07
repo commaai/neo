@@ -14,14 +14,28 @@ The switches
 
 The 4 DIP switches control signals to the stock ADAS system
 
-- 1 -- ADAS CAN1 -> main body CAN
+- 1 -- ADAS F-CAN-B <-> Car/Radar F-CAN-B
 
-- 2 -- ADAS CAN2 -> camera CAN (OBDII pins 12 & 13)
+- 2 -- ADAS ACC Can <-> Radar's ACC Can
 
-- 3 -- ADAS CAN2 (from radar) -> panda CAN3
+- 3 -- ADAS ACC Can <-> Car ACC Can (disconnect for proxy via panda)
 
-- 4 -- IGN Jumper (jumps IGN to PWR)
+- 4 -- IGN + 12V Merge (Use when constant 12v is unavailable via the DC jack or fake ethernet port)
 
+The modes
+====
+The first three switches:
+
+Stock - 111
+OpenPilot w/ stock auto high-beam and stock acc/radar firmware - 110
+OpenPilot w/ stock auto high-beam* and OP Longitudinal control (with modded/added radar) - 100
+OpenPilot w/ stock ADAS camera completely disabled - 000
+
+* Untested as of June 2018
+
+The fourth switch:
+Up - Use WITHOUT constant 12v power from the dc jack. DO NOT use with constant 12v connected
+Down - Use with constant 12v power or to disable panda if using only ignition power. comma power makes this easy https://shop.comma.ai
 
 
 Board by [@csouers](https://github.com/csouers) / Case by [@energee](https://github.com/energee)
