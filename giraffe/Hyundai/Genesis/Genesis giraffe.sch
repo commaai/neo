@@ -67,6 +67,8 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -235,65 +237,6 @@
 <wire x1="8.1" y1="-6.35" x2="-8.1" y2="-6.35" width="0.1524" layer="21"/>
 <wire x1="-8.1" y1="-6.35" x2="-8.1" y2="10.4" width="0.1524" layer="21"/>
 </package>
-<package name="OBDII-FEMALE-MIDCUT">
-<description>OBDII Connector footprint, for your late model automotive needs</description>
-<pad name="16" x="-13.825" y="4.2" drill="2.6" diameter="3.4"/>
-<pad name="15" x="-9.875" y="4.2" drill="2.6" diameter="3.4"/>
-<pad name="14" x="-5.925" y="4.2" drill="2.6" diameter="3.4"/>
-<pad name="13" x="-1.975" y="4.2" drill="2.6" diameter="3.4"/>
-<pad name="12" x="1.975" y="4.2" drill="2.6" diameter="3.4"/>
-<pad name="11" x="5.925" y="4.2" drill="2.6" diameter="3.4"/>
-<pad name="10" x="9.875" y="4.2" drill="2.6" diameter="3.4"/>
-<pad name="9" x="13.825" y="4.2" drill="2.6" diameter="3.4"/>
-<pad name="8" x="-13.825" y="-4.2" drill="2.6" diameter="3.4"/>
-<pad name="7" x="-9.875" y="-4.2" drill="2.6" diameter="3.4"/>
-<pad name="6" x="-5.925" y="-4.2" drill="2.6" diameter="3.4"/>
-<pad name="5" x="-1.975" y="-4.2" drill="2.6" diameter="3.4"/>
-<pad name="4" x="1.975" y="-4.2" drill="2.6" diameter="3.4"/>
-<pad name="3" x="5.925" y="-4.2" drill="2.6" diameter="3.4"/>
-<pad name="2" x="9.875" y="-4.2" drill="2.6" diameter="3.4"/>
-<pad name="1" x="13.825" y="-4.2" drill="2.6" diameter="3.4"/>
-<text x="16.129" y="-6.681" size="1.27" layer="21">1</text>
-<text x="-16.795" y="6.335" size="1.27" layer="21">16</text>
-<wire x1="-19.05" y1="-8.89" x2="19.05" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="-15.24" y1="8.89" x2="15.24" y2="8.89" width="0.127" layer="21"/>
-<wire x1="-19.05" y1="-8.89" x2="-20.32" y2="-6.35" width="0.1524" layer="21" curve="-90"/>
-<wire x1="19.05" y1="-8.89" x2="20.32" y2="-6.35" width="0.1524" layer="21" curve="90"/>
-<wire x1="-15.24" y1="8.89" x2="-18.034" y2="6.35" width="0.1524" layer="21" curve="90"/>
-<wire x1="-18.034" y1="6.35" x2="-20.32" y2="-6.35" width="0.1524" layer="21"/>
-<wire x1="20.32" y1="-6.35" x2="18.161" y2="6.35" width="0.1524" layer="21"/>
-<wire x1="15.24" y1="8.89" x2="18.161" y2="6.35" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-16" y1="0" x2="16" y2="0" width="0" layer="20"/>
-</package>
-<package name="OBDII-FEMALE">
-<description>OBDII Connector footprint, for your late model automotive needs</description>
-<pad name="16" x="-13.825" y="4.2" drill="2.6" diameter="3.4"/>
-<pad name="15" x="-9.875" y="4.2" drill="2.6" diameter="3.4"/>
-<pad name="14" x="-5.925" y="4.2" drill="2.6" diameter="3.4"/>
-<pad name="13" x="-1.975" y="4.2" drill="2.6" diameter="3.4"/>
-<pad name="12" x="1.975" y="4.2" drill="2.6" diameter="3.4"/>
-<pad name="11" x="5.925" y="4.2" drill="2.6" diameter="3.4"/>
-<pad name="10" x="9.875" y="4.2" drill="2.6" diameter="3.4"/>
-<pad name="9" x="13.825" y="4.2" drill="2.6" diameter="3.4"/>
-<pad name="8" x="-13.825" y="-4.2" drill="2.6" diameter="3.4"/>
-<pad name="7" x="-9.875" y="-4.2" drill="2.6" diameter="3.4"/>
-<pad name="6" x="-5.925" y="-4.2" drill="2.6" diameter="3.4"/>
-<pad name="5" x="-1.975" y="-4.2" drill="2.6" diameter="3.4"/>
-<pad name="4" x="1.975" y="-4.2" drill="2.6" diameter="3.4"/>
-<pad name="3" x="5.925" y="-4.2" drill="2.6" diameter="3.4"/>
-<pad name="2" x="9.875" y="-4.2" drill="2.6" diameter="3.4"/>
-<pad name="1" x="13.825" y="-4.2" drill="2.6" diameter="3.4"/>
-<text x="13.335" y="-1.855" size="1.27" layer="21">1</text>
-<text x="-14.89" y="0.62" size="1.27" layer="21">16</text>
-<wire x1="-19.05" y1="-8.89" x2="19.05" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="-15.24" y1="8.89" x2="15.24" y2="8.89" width="0.127" layer="21"/>
-<wire x1="-19.05" y1="-8.89" x2="-20.32" y2="-6.35" width="0.1524" layer="21" curve="-90"/>
-<wire x1="19.05" y1="-8.89" x2="20.32" y2="-6.35" width="0.1524" layer="21" curve="90"/>
-<wire x1="-15.24" y1="8.89" x2="-18.034" y2="6.35" width="0.1524" layer="21" curve="90"/>
-<wire x1="-18.034" y1="6.35" x2="-20.32" y2="-6.35" width="0.1524" layer="21"/>
-<wire x1="20.32" y1="-6.35" x2="18.161" y2="6.35" width="0.1524" layer="21"/>
-<wire x1="15.24" y1="8.89" x2="18.161" y2="6.35" width="0.1524" layer="21" curve="-90"/>
-</package>
 </packages>
 <symbols>
 <symbol name="MOBILEEYE-12">
@@ -411,29 +354,6 @@
 <pin name="7" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="1"/>
 <pin name="8" x="-2.54" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="1"/>
 </symbol>
-<symbol name="OBDII">
-<wire x1="-17.78" y1="12.7" x2="-17.78" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-12.7" x2="17.78" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-12.7" x2="17.78" y2="12.7" width="0.254" layer="94"/>
-<wire x1="17.78" y1="12.7" x2="-17.78" y2="12.7" width="0.254" layer="94"/>
-<pin name="1" x="-22.86" y="10.16" length="middle"/>
-<pin name="J1850BUS+" x="-22.86" y="7.62" length="middle"/>
-<pin name="3" x="-22.86" y="5.08" length="middle"/>
-<pin name="CHASGND" x="-22.86" y="2.54" length="middle"/>
-<pin name="SIGGND" x="-22.86" y="0" length="middle"/>
-<pin name="CANHIGH" x="-22.86" y="-2.54" length="middle"/>
-<pin name="ISOK-LINE" x="-22.86" y="-5.08" length="middle"/>
-<pin name="8" x="-22.86" y="-7.62" length="middle"/>
-<pin name="9" x="22.86" y="10.16" length="middle" rot="R180"/>
-<pin name="J1850BUS" x="22.86" y="7.62" length="middle" rot="R180"/>
-<pin name="11" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="12" x="22.86" y="2.54" length="middle" rot="R180"/>
-<pin name="13" x="22.86" y="0" length="middle" rot="R180"/>
-<pin name="CANLOW" x="22.86" y="-2.54" length="middle" rot="R180"/>
-<pin name="ISOL-LINE" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="BATTPOWER" x="22.86" y="-7.62" length="middle" rot="R180"/>
-<text x="-17.526" y="14.224" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MOBILEEYE-12" prefix="J" uservalue="yes">
@@ -511,59 +431,6 @@
 <connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="OBDII-FEMALE" prefix="J">
-<gates>
-<gate name="G$1" symbol="OBDII" x="0" y="0"/>
-</gates>
-<devices>
-<device name="FEMALE" package="OBDII-FEMALE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-<connect gate="G$1" pin="BATTPOWER" pad="16"/>
-<connect gate="G$1" pin="CANHIGH" pad="6"/>
-<connect gate="G$1" pin="CANLOW" pad="14"/>
-<connect gate="G$1" pin="CHASGND" pad="4"/>
-<connect gate="G$1" pin="ISOK-LINE" pad="7"/>
-<connect gate="G$1" pin="ISOL-LINE" pad="15"/>
-<connect gate="G$1" pin="J1850BUS" pad="10"/>
-<connect gate="G$1" pin="J1850BUS+" pad="2"/>
-<connect gate="G$1" pin="SIGGND" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-CUT" package="OBDII-FEMALE-MIDCUT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-<connect gate="G$1" pin="BATTPOWER" pad="16"/>
-<connect gate="G$1" pin="CANHIGH" pad="6"/>
-<connect gate="G$1" pin="CANLOW" pad="14"/>
-<connect gate="G$1" pin="CHASGND" pad="4"/>
-<connect gate="G$1" pin="ISOK-LINE" pad="7"/>
-<connect gate="G$1" pin="ISOL-LINE" pad="15"/>
-<connect gate="G$1" pin="J1850BUS" pad="10"/>
-<connect gate="G$1" pin="J1850BUS+" pad="2"/>
-<connect gate="G$1" pin="SIGGND" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -904,6 +771,194 @@ Standard 8.5x11 US Letter frame</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Genesis giraffe1">
+<description>Generated from &lt;b&gt;Genesis giraffe1.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="COMMA.AI_OBDII-FEMALE-MIDCUT">
+<description>OBDII Connector footprint, for your late model automotive needs</description>
+<wire x1="-19.05" y1="-8.89" x2="19.05" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="8.89" x2="15.24" y2="8.89" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-8.89" x2="-20.32" y2="-6.35" width="0.1524" layer="21" curve="-90"/>
+<wire x1="19.05" y1="-8.89" x2="20.32" y2="-6.35" width="0.1524" layer="21" curve="90"/>
+<wire x1="-15.24" y1="8.89" x2="-18.034" y2="6.35" width="0.1524" layer="21" curve="90"/>
+<wire x1="-18.034" y1="6.35" x2="-20.32" y2="-6.35" width="0.1524" layer="21"/>
+<wire x1="20.32" y1="-6.35" x2="18.161" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="8.89" x2="18.161" y2="6.35" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-16" y1="0" x2="16" y2="0" width="0" layer="20"/>
+<pad name="1" x="13.825" y="-4.2" drill="2.6" diameter="3.4"/>
+<pad name="2" x="9.875" y="-4.2" drill="2.6" diameter="3.4"/>
+<pad name="3" x="5.925" y="-4.2" drill="2.6" diameter="3.4"/>
+<pad name="4" x="1.975" y="-4.2" drill="2.6" diameter="3.4"/>
+<pad name="5" x="-1.975" y="-4.2" drill="2.6" diameter="3.4"/>
+<pad name="6" x="-5.925" y="-4.2" drill="2.6" diameter="3.4"/>
+<pad name="7" x="-9.875" y="-4.2" drill="2.6" diameter="3.4"/>
+<pad name="8" x="-13.825" y="-4.2" drill="2.6" diameter="3.4"/>
+<pad name="9" x="13.825" y="4.2" drill="2.6" diameter="3.4"/>
+<pad name="10" x="9.875" y="4.2" drill="2.6" diameter="3.4"/>
+<pad name="11" x="5.925" y="4.2" drill="2.6" diameter="3.4"/>
+<pad name="12" x="1.975" y="4.2" drill="2.6" diameter="3.4"/>
+<pad name="13" x="-1.975" y="4.2" drill="2.6" diameter="3.4"/>
+<pad name="14" x="-5.925" y="4.2" drill="2.6" diameter="3.4"/>
+<pad name="15" x="-9.875" y="4.2" drill="2.6" diameter="3.4"/>
+<pad name="16" x="-13.825" y="4.2" drill="2.6" diameter="3.4"/>
+<text x="16.129" y="-6.681" size="1.27" layer="21">1</text>
+<text x="-16.795" y="6.335" size="1.27" layer="21">16</text>
+</package>
+<package name="COMMA.AI_OBDII-FEMALE">
+<description>OBDII Connector footprint, for your late model automotive needs</description>
+<wire x1="-19.05" y1="-8.89" x2="19.05" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="8.89" x2="15.24" y2="8.89" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-8.89" x2="-20.32" y2="-6.35" width="0.1524" layer="21" curve="-90"/>
+<wire x1="19.05" y1="-8.89" x2="20.32" y2="-6.35" width="0.1524" layer="21" curve="90"/>
+<wire x1="-15.24" y1="8.89" x2="-18.034" y2="6.35" width="0.1524" layer="21" curve="90"/>
+<wire x1="-18.034" y1="6.35" x2="-20.32" y2="-6.35" width="0.1524" layer="21"/>
+<wire x1="20.32" y1="-6.35" x2="18.161" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="8.89" x2="18.161" y2="6.35" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="13.825" y="-4.2" drill="2.6" diameter="3.4"/>
+<pad name="2" x="9.875" y="-4.2" drill="2.6" diameter="3.4"/>
+<pad name="3" x="5.925" y="-4.2" drill="2.6" diameter="3.4"/>
+<pad name="4" x="1.975" y="-4.2" drill="2.6" diameter="3.4"/>
+<pad name="5" x="-1.975" y="-4.2" drill="2.6" diameter="3.4"/>
+<pad name="6" x="-5.925" y="-4.2" drill="2.6" diameter="3.4"/>
+<pad name="7" x="-9.875" y="-4.2" drill="2.6" diameter="3.4"/>
+<pad name="8" x="-13.825" y="-4.2" drill="2.6" diameter="3.4"/>
+<pad name="9" x="13.825" y="4.2" drill="2.6" diameter="3.4"/>
+<pad name="10" x="9.875" y="4.2" drill="2.6" diameter="3.4"/>
+<pad name="11" x="5.925" y="4.2" drill="2.6" diameter="3.4"/>
+<pad name="12" x="1.975" y="4.2" drill="2.6" diameter="3.4"/>
+<pad name="13" x="-1.975" y="4.2" drill="2.6" diameter="3.4"/>
+<pad name="14" x="-5.925" y="4.2" drill="2.6" diameter="3.4"/>
+<pad name="15" x="-9.875" y="4.2" drill="2.6" diameter="3.4"/>
+<pad name="16" x="-13.825" y="4.2" drill="2.6" diameter="3.4"/>
+<text x="13.335" y="-1.855" size="1.27" layer="21">1</text>
+<text x="-14.89" y="0.62" size="1.27" layer="21">16</text>
+</package>
+<package name="COMMA.AI_2X6-TE-FEMALE_NEW1">
+<wire x1="-2.286" y1="3.048" x2="2.286" y2="3.048" width="0.127" layer="21"/>
+<pad name="1" x="-14" y="-1.5" drill="1.25"/>
+<text x="-7.62" y="3.81" size="1.27" layer="21">&gt;NAME</text>
+<pad name="2" x="-10" y="-1.5" drill="1.25"/>
+<pad name="3" x="-6" y="-1.5" drill="1.25"/>
+<pad name="4" x="-2" y="-1.5" drill="1.25"/>
+<pad name="5" x="2" y="-1.5" drill="1.25"/>
+<pad name="6" x="6" y="-1.5" drill="1.25"/>
+<pad name="7" x="10" y="-1.5" drill="1.25"/>
+<pad name="8" x="14" y="-1.5" drill="1.25"/>
+<pad name="9" x="-14" y="1.5" drill="1.25"/>
+<pad name="10" x="-10" y="1.5" drill="1.25"/>
+<pad name="11" x="-6" y="1.5" drill="1.25"/>
+<pad name="12" x="-2" y="1.5" drill="1.25"/>
+<pad name="13" x="2" y="1.5" drill="1.25"/>
+<pad name="14" x="6" y="1.5" drill="1.25"/>
+<pad name="15" x="10" y="1.5" drill="1.25"/>
+<pad name="16" x="14" y="1.5" drill="1.25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="COMMA.AI_OBDII">
+<wire x1="-17.78" y1="12.7" x2="-17.78" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-12.7" x2="17.78" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-12.7" x2="17.78" y2="12.7" width="0.254" layer="94"/>
+<wire x1="17.78" y1="12.7" x2="-17.78" y2="12.7" width="0.254" layer="94"/>
+<pin name="1" x="-22.86" y="10.16" length="middle"/>
+<pin name="3" x="-22.86" y="5.08" length="middle"/>
+<pin name="8" x="-22.86" y="-7.62" length="middle"/>
+<pin name="9" x="22.86" y="10.16" length="middle" rot="R180"/>
+<pin name="11" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="12" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="13" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="BATTPOWER" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="CANHIGH" x="-22.86" y="-2.54" length="middle"/>
+<pin name="CANLOW" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="CHASGND" x="-22.86" y="2.54" length="middle"/>
+<pin name="ISOK-LINE" x="-22.86" y="-5.08" length="middle"/>
+<pin name="ISOL-LINE" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="J1850BUS" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="J1850BUS+" x="-22.86" y="7.62" length="middle"/>
+<pin name="SIGGND" x="-22.86" y="0" length="middle"/>
+<text x="-17.526" y="14.224" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="COMMA.AI_OBDII-FEMALE" prefix="J">
+<gates>
+<gate name="G$1" symbol="COMMA.AI_OBDII" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-CUT" package="COMMA.AI_OBDII-FEMALE-MIDCUT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="BATTPOWER" pad="16"/>
+<connect gate="G$1" pin="CANHIGH" pad="6"/>
+<connect gate="G$1" pin="CANLOW" pad="14"/>
+<connect gate="G$1" pin="CHASGND" pad="4"/>
+<connect gate="G$1" pin="ISOK-LINE" pad="7"/>
+<connect gate="G$1" pin="ISOL-LINE" pad="15"/>
+<connect gate="G$1" pin="J1850BUS" pad="10"/>
+<connect gate="G$1" pin="J1850BUS+" pad="2"/>
+<connect gate="G$1" pin="SIGGND" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FEMALE" package="COMMA.AI_OBDII-FEMALE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="BATTPOWER" pad="16"/>
+<connect gate="G$1" pin="CANHIGH" pad="6"/>
+<connect gate="G$1" pin="CANLOW" pad="14"/>
+<connect gate="G$1" pin="CHASGND" pad="4"/>
+<connect gate="G$1" pin="ISOK-LINE" pad="7"/>
+<connect gate="G$1" pin="ISOL-LINE" pad="15"/>
+<connect gate="G$1" pin="J1850BUS" pad="10"/>
+<connect gate="G$1" pin="J1850BUS+" pad="2"/>
+<connect gate="G$1" pin="SIGGND" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="COMMA.AI_2X6-TE-FEMALE_NEW1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="BATTPOWER" pad="16"/>
+<connect gate="G$1" pin="CANHIGH" pad="6"/>
+<connect gate="G$1" pin="CANLOW" pad="14"/>
+<connect gate="G$1" pin="CHASGND" pad="4"/>
+<connect gate="G$1" pin="ISOK-LINE" pad="7"/>
+<connect gate="G$1" pin="ISOL-LINE" pad="15"/>
+<connect gate="G$1" pin="J1850BUS" pad="10"/>
+<connect gate="G$1" pin="J1850BUS+" pad="2"/>
+<connect gate="G$1" pin="SIGGND" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -914,13 +969,13 @@ Standard 8.5x11 US Letter frame</description>
 </class>
 </classes>
 <parts>
-<part name="J3" library="comma.ai" deviceset="OBDII-FEMALE" device="-CUT" value="OBDII-FEMALE-CUT"/>
 <part name="J4" library="comma.ai" deviceset="RA-RJ45" device="RA"/>
 <part name="J2" library="comma.ai" deviceset="MOBILEEYE-12" device="MALE"/>
 <part name="J1" library="comma.ai" deviceset="MOBILEEYE-12" device="FEMALE"/>
 <part name="SW1" library="comma.ai" library_urn="urn:adsk.eagle:library:562206" deviceset="4XDPST" device="SMT" package3d_urn="urn:adsk.eagle:package:562447/1"/>
 <part name="J5" library="adafruit" deviceset="DCBARREL" device="PTH"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="NO_PACKAGE"/>
+<part name="J3" library="Genesis giraffe1" deviceset="COMMA.AI_OBDII-FEMALE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -930,7 +985,6 @@ Standard 8.5x11 US Letter frame</description>
 <text x="158.242" y="93.218" size="1.778" layer="97">MobilEye Female (to Nidec)</text>
 </plain>
 <instances>
-<instance part="J3" gate="G$1" x="81.28" y="114.3"/>
 <instance part="J4" gate="G$1" x="83.82" y="45.72"/>
 <instance part="J2" gate="G$1" x="81.28" y="81.28"/>
 <instance part="J1" gate="G$1" x="167.64" y="81.28"/>
@@ -938,6 +992,7 @@ Standard 8.5x11 US Letter frame</description>
 <instance part="J5" gate="G$1" x="116.84" y="43.18"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="V" x="147.32" y="0"/>
+<instance part="J3" gate="G$1" x="81.28" y="114.3"/>
 </instances>
 <busses>
 </busses>
@@ -1047,12 +1102,12 @@ Standard 8.5x11 US Letter frame</description>
 <segment>
 <wire x1="58.42" y1="116.84" x2="55.88" y2="116.84" width="0.1524" layer="91"/>
 <label x="43.18" y="116.84" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="CHASGND"/>
-<pinref part="J3" gate="G$1" pin="SIGGND"/>
 <wire x1="55.88" y1="116.84" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="114.3" x2="55.88" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="114.3" x2="55.88" y2="116.84" width="0.1524" layer="91"/>
 <junction x="55.88" y="116.84"/>
+<pinref part="J3" gate="G$1" pin="CHASGND"/>
+<pinref part="J3" gate="G$1" pin="SIGGND"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
@@ -1133,9 +1188,9 @@ Standard 8.5x11 US Letter frame</description>
 <label x="139.7" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="8"/>
 <wire x1="58.42" y1="106.68" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
 <label x="43.18" y="106.68" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <pinref part="SW1" gate="G$1" pin="A6"/>
