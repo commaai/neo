@@ -7,7 +7,7 @@ Get your panda deeper into your:
 - 2017+ Honda Civic Hatchback
 - 2018+ Honda Accord
 
-May other Hondas with Bosch hardware.
+May fit other Hondas with Bosch hardware as well.
 
 The switches
 ====
