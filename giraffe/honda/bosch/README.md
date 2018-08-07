@@ -18,6 +18,6 @@ The 2 DIP switches control signals to the stock ADAS system
 
 - 2 -- ADAS CAN2 -> camera CAN (OBDII pins 12 & 13)
 
-<img src="https://github.com/commaai/neo/tree/master/giraffe/honda/bosch_switches.png">
+<img src="https://github.com/commaai/neo/blob/master/giraffe/honda/bosch/bosch_switches.png">
 
 Initial design from the community from: [@csouers](https://github.com/csouers), [@energee](https://github.com/energee), and Alaric Egli
