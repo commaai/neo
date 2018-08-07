@@ -4,24 +4,20 @@ Honda giraffe (Bosch ADAS)
 Get your panda deeper into your:
 
 - 2017+ Honda CR-V
-- 2017+ Civic Hatchback
-- 2018+ Accord
+- 2017+ Honda Civic Hatchback
+- 2018+ Honda Accord
 
-May fit some Japanese civics or other Hondas with Bosch hardware.
+May other Hondas with Bosch hardware.
 
 The switches
 ====
 
-The 4 DIP switches control signals to the stock ADAS system
+The 2 DIP switches control signals to the stock ADAS system
 
-- 1 -- ADAS CAN1 -> main body CAN
+- 1 -- IGN to camera
 
 - 2 -- ADAS CAN2 -> camera CAN (OBDII pins 12 & 13)
 
-- 3 -- ADAS CAN2 (from radar) -> panda CAN3
+<img src="https://github.com/commaai/neo/tree/master/giraffe/honda/bosch_switches.png">
 
-- 4 -- IGN Jumper (jumps IGN to PWR)
-
-
-
-Board by [@csouers](https://github.com/csouers) / Case by [@energee](https://github.com/energee)
+Initial design from the community from: [@csouers](https://github.com/csouers), [@energee](https://github.com/energee), and Alaric Egli
