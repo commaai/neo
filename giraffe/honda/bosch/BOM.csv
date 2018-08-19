@@ -6,6 +6,6 @@ J4,RJ45-VERT,AE10399-ND,1,https://www.digikey.com/scripts/DkSearch/dksus.dll?Det
 J5,12 Pin,M34S75C4F1,12,https://www.digikey.com/product-detail/en/jae-electronics/M34S75C4F1/670-2268-2-ND/2044176
 J2,12 Pin,S1211EC-40-ND,12,https://www.digikey.com/product-detail/en/sullins-connector-solutions/PRPC040SFAN-RC/S1211EC-40-ND/2775334
 D1,SMD,ES2BA-13-F,1,https://www.digikey.com/product-detail/en/diodes-incorporated/ES2BA-13-F/ES2BA-FDICT-ND/815690
-M3 8mm,Hex,91294A132,1,https://www.mcmaster.com/#91294A132
-M3 12 mm,Hex,91294A128,2,https://www.mcmaster.com/#91294A128
+M3 8mm,Hex,91294A132,1,https://www.mcmaster.com/#91294A128
+M3 14 mm,Hex,91294A128,2,https://www.mcmaster.com/#91294A133
 Nut,Hex,91828A211,2,https://www.mcmaster.com/#catalog/124/3276/=1doa85x
