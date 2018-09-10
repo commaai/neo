@@ -815,8 +815,8 @@ Standard 8.5x11 US Letter frame</description>
 <wire x1="-11.31" y1="-6.1" x2="-11.31" y2="6.1" width="0.127" layer="51"/>
 <wire x1="-11.31" y1="6.1" x2="11.31" y2="6.1" width="0.127" layer="51"/>
 <wire x1="11.31" y1="6.1" x2="11.31" y2="-6.1" width="0.127" layer="51"/>
-<hole x="-9.85" y="-3" drill="2.16"/>
-<hole x="9.85" y="-3" drill="2.16"/>
+<hole x="-9.95" y="-4.55" drill="2.16"/>
+<hole x="9.95" y="-4.55" drill="2.16"/>
 <pad name="5" x="-7" y="-2" drill="1"/>
 <pad name="6" x="-5" y="-2" drill="1"/>
 <pad name="7" x="-3" y="-2" drill="1"/>
