@@ -19,4 +19,5 @@ Parts list (BOM)
 * 6 or more headers to build with the mini50 receptacle: https://www.digikey.com/products/en?keywords=S1011EC-40-ND
 * Mini50 vertical header: Molex 0348250124 WM10326-ND https://www.digikey.com/product-detail/en/molex-llc/0348250124/WM10326-ND/4504599
 * Mini50 receptacle: Molex 0348240124 WM10324-ND https://www.digikey.com/product-detail/en/molex-llc/0348240124/WM10324-ND/4504597
+  * If out of stock, perhaps bridge version will work: 0348241124 https://www.digikey.com/product-detail/en/molex-llc/0348241124/WM13165-ND/4693133
 * 6 or more Mini50 terminal connectors to put the headers into the receptacle: Molex 5600230448 WM16315CT-ND https://www.digikey.com/product-detail/en/molex-llc/5600230448/WM16315CT-ND/6702303
