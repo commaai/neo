@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -6676,7 +6676,40 @@ Source: GLX-S-88M.pdf</description>
 <gate name="G$1" symbol="MOBILEEYE-12" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="MALE" package="2X6-TE-RA">
+<connects>
+<connect gate="G$1" pin="CAR_CANH" pad="6"/>
+<connect gate="G$1" pin="CAR_CANL" pad="12"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="HTR" pad="1"/>
+<connect gate="G$1" pin="IGN" pad="7"/>
+<connect gate="G$1" pin="NC" pad="2"/>
+<connect gate="G$1" pin="NC@1" pad="3"/>
+<connect gate="G$1" pin="NC@2" pad="4"/>
+<connect gate="G$1" pin="NC@4" pad="8"/>
+<connect gate="G$1" pin="NC@5" pad="9"/>
+<connect gate="G$1" pin="RAD_CANH" pad="5"/>
+<connect gate="G$1" pin="RAD_CANL" pad="11"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FEMALE" package="2X6-TE-FEMALE">
+<connects>
+<connect gate="G$1" pin="CAR_CANH" pad="6"/>
+<connect gate="G$1" pin="CAR_CANL" pad="12"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="HTR" pad="1"/>
+<connect gate="G$1" pin="IGN" pad="7"/>
+<connect gate="G$1" pin="NC" pad="8"/>
+<connect gate="G$1" pin="NC@1" pad="2"/>
+<connect gate="G$1" pin="NC@2" pad="3"/>
+<connect gate="G$1" pin="NC@4" pad="4"/>
+<connect gate="G$1" pin="NC@5" pad="9"/>
+<connect gate="G$1" pin="RAD_CANH" pad="5"/>
+<connect gate="G$1" pin="RAD_CANL" pad="11"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
