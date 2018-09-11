@@ -16,8 +16,9 @@ Parts list (BOM)
 * Power barrel connector to provide 12V from your Comma Power (can avoid this by wiring IGN to 12V and not using Comma Power): 3-pin	EJ508A	1	https://www.digikey.com/products/en?keywords=ej508a
 * Switch to choose stock camera signals: SMD	204-214ST	1 https://www.digikey.com/product-detail/en/cts-electrocomponents/204-214ST/CT204214ST-ND/267313
 * OBD2 connector for the Panda to plug in: 16-pin	OBDII-FEMALE	1	https://cn1514770021qfbj.en.alibaba.com/product/60598699808-804284542/J1962F_OBD2_16_Pin_Female_connector_OBD2_Socket.html
-* 6 or more headers to build with the mini50 receptacle: https://www.digikey.com/products/en?keywords=S1011EC-40-ND
+* 6 or more generic headers or stiff wire that will go in the terminals: https://www.digikey.com/products/en?keywords=S1011EC-40-ND
 * Mini50 vertical header: Molex 0348250124 WM10326-ND https://www.digikey.com/product-detail/en/molex-llc/0348250124/WM10326-ND/4504599
 * Mini50 receptacle: Molex 0348240124 WM10324-ND https://www.digikey.com/product-detail/en/molex-llc/0348240124/WM10324-ND/4504597
-  * If out of stock, perhaps bridge version will work: 0348241124 https://www.digikey.com/product-detail/en/molex-llc/0348241124/WM13165-ND/4693133
+  * If out of stock, the bridge version will work but won't sit flush on the PCB: 0348241124 https://www.digikey.com/product-detail/en/molex-llc/0348241124/WM13165-ND/4693133
 * 6 or more Mini50 terminal connectors to put the headers into the receptacle: Molex 5600230448 WM16315CT-ND https://www.digikey.com/product-detail/en/molex-llc/5600230448/WM16315CT-ND/6702303
+  * There are several different types of terminals. Pretty much any of them should work. The sizes are for different gage of wires: L for 0.35mm2, M for 0.22mm2, S for 0.13mm2. The linked headers are 0.41mm2, so get the L size, which is what I've linked to here.
