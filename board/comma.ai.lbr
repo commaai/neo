@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.1">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2667,6 +2667,28 @@ Source: TDA8029.pdf</description>
 <smd name="20" x="12.7" y="0" dx="1.6" dy="3" layer="16"/>
 <smd name="2" x="-10.16" y="0" dx="1.6" dy="3" layer="16"/>
 </package>
+<package name="MINI50-12">
+<description>12 CKT VERTICAL HEADER</description>
+<wire x1="11.31" y1="-6.1" x2="-11.31" y2="-6.1" width="0.127" layer="51"/>
+<wire x1="-11.31" y1="-6.1" x2="-11.31" y2="6.1" width="0.127" layer="51"/>
+<wire x1="-11.31" y1="6.1" x2="11.31" y2="6.1" width="0.127" layer="51"/>
+<wire x1="11.31" y1="6.1" x2="11.31" y2="-6.1" width="0.127" layer="51"/>
+<hole x="-9.95" y="-4.55" drill="2.16"/>
+<hole x="9.95" y="-4.55" drill="2.16"/>
+<pad name="5" x="-7" y="-2" drill="1"/>
+<pad name="6" x="-5" y="-2" drill="1"/>
+<pad name="7" x="-3" y="-2" drill="1"/>
+<pad name="8" x="-1" y="-2" drill="1"/>
+<pad name="9" x="1" y="-2" drill="1"/>
+<pad name="10" x="3" y="-2" drill="1"/>
+<pad name="11" x="5" y="-2" drill="1"/>
+<pad name="12" x="7" y="-2" drill="1"/>
+<pad name="1" x="-7" y="0.2" drill="1"/>
+<pad name="2" x="-5" y="0.2" drill="1"/>
+<pad name="3" x="5" y="0.2" drill="1"/>
+<pad name="4" x="7" y="0.2" drill="1"/>
+<circle x="-7" y="2" radius="0.5" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MX286-POWER">
@@ -4477,6 +4499,26 @@ Source: TDA8029.pdf</description>
 <wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.1524" layer="94"/>
 <wire x1="-10.16" y1="-10.16" x2="-10.16" y2="5.08" width="0.1524" layer="94"/>
 <text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="MINI50-12">
+<pin name="GND@1" x="-20.32" y="5.08" length="middle" direction="pwr"/>
+<pin name="CAR_CANH" x="-20.32" y="2.54" length="middle"/>
+<pin name="@5" x="-20.32" y="-5.08" length="middle"/>
+<pin name="CAR_CANL@6" x="-20.32" y="-7.62" length="middle"/>
+<pin name="@3" x="-20.32" y="0" length="middle"/>
+<pin name="@4" x="-20.32" y="-2.54" length="middle"/>
+<pin name="CAM_CANH@7" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="IGN@12" x="20.32" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="@11" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="CAM_CANL" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="@9" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="@10" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<wire x1="-15.24" y1="-10.16" x2="-15.24" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="10.16" x2="15.24" y2="10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="-15.24" y2="-10.16" width="0.254" layer="94"/>
+<text x="-15.494" y="11.43" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.874" y="7.62" size="1.778" layer="94">MINI50-12</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6634,40 +6676,7 @@ Source: GLX-S-88M.pdf</description>
 <gate name="G$1" symbol="MOBILEEYE-12" x="0" y="0"/>
 </gates>
 <devices>
-<device name="MALE" package="2X6-TE-RA">
-<connects>
-<connect gate="G$1" pin="CAR_CANH" pad="6"/>
-<connect gate="G$1" pin="CAR_CANL" pad="12"/>
-<connect gate="G$1" pin="GND" pad="10"/>
-<connect gate="G$1" pin="HTR" pad="1"/>
-<connect gate="G$1" pin="IGN" pad="7"/>
-<connect gate="G$1" pin="NC" pad="2"/>
-<connect gate="G$1" pin="NC@1" pad="3"/>
-<connect gate="G$1" pin="NC@2" pad="4"/>
-<connect gate="G$1" pin="NC@4" pad="8"/>
-<connect gate="G$1" pin="NC@5" pad="9"/>
-<connect gate="G$1" pin="RAD_CANH" pad="5"/>
-<connect gate="G$1" pin="RAD_CANL" pad="11"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="FEMALE" package="2X6-TE-FEMALE">
-<connects>
-<connect gate="G$1" pin="CAR_CANH" pad="6"/>
-<connect gate="G$1" pin="CAR_CANL" pad="12"/>
-<connect gate="G$1" pin="GND" pad="10"/>
-<connect gate="G$1" pin="HTR" pad="1"/>
-<connect gate="G$1" pin="IGN" pad="7"/>
-<connect gate="G$1" pin="NC" pad="8"/>
-<connect gate="G$1" pin="NC@1" pad="2"/>
-<connect gate="G$1" pin="NC@2" pad="3"/>
-<connect gate="G$1" pin="NC@4" pad="4"/>
-<connect gate="G$1" pin="NC@5" pad="9"/>
-<connect gate="G$1" pin="RAD_CANH" pad="5"/>
-<connect gate="G$1" pin="RAD_CANL" pad="11"/>
-</connects>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6853,6 +6862,33 @@ Source: GLX-S-88M.pdf</description>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MINI50" prefix="J" uservalue="yes">
+<description>mini50 12 vertical header</description>
+<gates>
+<gate name="G$1" symbol="MINI50-12" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MINI50-12-VERT" package="MINI50-12">
+<connects>
+<connect gate="G$1" pin="@10" pad="10"/>
+<connect gate="G$1" pin="@11" pad="11"/>
+<connect gate="G$1" pin="@3" pad="3"/>
+<connect gate="G$1" pin="@4" pad="4"/>
+<connect gate="G$1" pin="@5" pad="5"/>
+<connect gate="G$1" pin="@9" pad="9"/>
+<connect gate="G$1" pin="CAM_CANH@7" pad="7"/>
+<connect gate="G$1" pin="CAM_CANL" pad="8"/>
+<connect gate="G$1" pin="CAR_CANH" pad="2"/>
+<connect gate="G$1" pin="CAR_CANL@6" pad="6"/>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="IGN@12" pad="12"/>
 </connects>
 <technologies>
 <technology name=""/>
