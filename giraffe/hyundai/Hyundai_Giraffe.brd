@@ -677,7 +677,7 @@ design rules under a new name.</description>
 <element name="SW1" library="comma.ai" library_urn="urn:adsk.eagle:library:2652900" package="4-DPST" package3d_urn="urn:adsk.eagle:package:2653253/3" value="4XDPSTSMT" x="64.55" y="47.31"/>
 <element name="U$1" library="MG645845" library_urn="urn:adsk.eagle:library:5039531" package="MG645845" package3d_urn="urn:adsk.eagle:package:5039537/2" value="MG645845" x="64.78" y="67.58" rot="R180"/>
 <element name="U$2" library="MG645845" library_urn="urn:adsk.eagle:library:5039531" package="MG655794" package3d_urn="urn:adsk.eagle:package:5039536/3" value="MG655794" x="69.9" y="75.93" rot="MR180"/>
-<element name="FRAME1" library="comma.ai" library_urn="urn:adsk.eagle:library:2652900" package="DUMMY" package3d_urn="urn:adsk.eagle:package:2653284/1" value="FRAME-LETTERNO_PACKAGE" x="19" y="-13">
+<element name="FRAME1" library="comma.ai" library_urn="urn:adsk.eagle:library:2652900" package="DUMMY" package3d_urn="urn:adsk.eagle:package:2653284/1" value="FRAME-LETTER-OPENNO_PACKAGE" x="19" y="-13">
 <attribute name="DESIGNER" value="Nobody" x="19" y="-13" size="1.778" layer="27" display="off"/>
 <attribute name="VERSION" value="v01" x="19" y="-13" size="1.778" layer="27" display="off"/>
 </element>

@@ -664,7 +664,7 @@ chip</description>
 <wire x1="0" y1="185.42" x2="0" y2="0" width="0.4064" layer="94"/>
 <wire x1="0" y1="0" x2="248.92" y2="0" width="0.4064" layer="94"/>
 </symbol>
-<symbol name="DOCFIELD" urn="urn:adsk.eagle:symbol:2652992/1" library_version="42">
+<symbol name="DOCFIELD-OPEN" urn="urn:adsk.eagle:symbol:2966403/1" library_version="42">
 <description>&lt;h3&gt;Schematic Documentation Field&lt;/h3&gt;
 &lt;p&gt;Autofilling schematic symbol-layer info including board name, designer, revision, and save date.&lt;/p&gt;
 &lt;p&gt;Devices using:
@@ -697,7 +697,7 @@ chip</description>
 <text x="1.524" y="17.78" size="2.54" layer="94" font="vector">TITLE:</text>
 <text x="16.002" y="17.272" size="2.7432" layer="94" font="vector">&gt;DRAWING_NAME</text>
 <text x="2.54" y="26.67" size="1.9304" layer="94">comma.ai
-dont copy our shit!</text>
+you can copy this!</text>
 <text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
 <rectangle x1="93.6879" y1="25.7937" x2="93.8403" y2="25.8699" layer="94"/>
 <rectangle x1="93.6879" y1="25.8699" x2="94.0689" y2="25.9461" layer="94"/>
@@ -924,12 +924,12 @@ dont copy our shit!</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FRAME-LETTER" urn="urn:adsk.eagle:component:2653407/1" prefix="FRAME" library_version="42">
+<deviceset name="FRAME-LETTER-OPEN" urn="urn:adsk.eagle:component:2966414/1" prefix="FRAME" library_version="42">
 <description>&lt;h3&gt;Schematic Frame - Letter&lt;/h3&gt;
 &lt;p&gt;Standard 8.5x11 US Letter frame&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="FRAME-LETTER" x="0" y="0"/>
-<gate name="V" symbol="DOCFIELD" x="147.32" y="0" addlevel="must"/>
+<gate name="G$2" symbol="DOCFIELD-OPEN" x="147.32" y="0"/>
 </gates>
 <devices>
 <device name="NO_PACKAGE" package="DUMMY">
@@ -1276,7 +1276,7 @@ dont copy our shit!</text>
 <part name="U$1" library="MG645845" library_urn="urn:adsk.eagle:library:5039531" deviceset="MG645845" device="" package3d_urn="urn:adsk.eagle:package:5039537/2"/>
 <part name="U$2" library="MG645845" library_urn="urn:adsk.eagle:library:5039531" deviceset="MG655794" device="" package3d_urn="urn:adsk.eagle:package:5039536/3"/>
 <part name="SW1" library="comma.ai" library_urn="urn:adsk.eagle:library:2652900" deviceset="4XDPST" device="SMT" package3d_urn="urn:adsk.eagle:package:2653253/3"/>
-<part name="FRAME1" library="comma.ai" library_urn="urn:adsk.eagle:library:2652900" deviceset="FRAME-LETTER" device="NO_PACKAGE" package3d_urn="urn:adsk.eagle:package:2653284/1"/>
+<part name="FRAME1" library="comma.ai" library_urn="urn:adsk.eagle:library:2652900" deviceset="FRAME-LETTER-OPEN" device="NO_PACKAGE" package3d_urn="urn:adsk.eagle:package:2653284/1"/>
 <part name="J3" library="comma.ai" library_urn="urn:adsk.eagle:library:2652900" deviceset="DCBARREL" device="PTH" package3d_urn="urn:adsk.eagle:package:2744729/3"/>
 <part name="R1" library="comma.ai" library_urn="urn:adsk.eagle:library:2652900" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:2653201/1" value="120Ohm "/>
 </parts>
@@ -1291,7 +1291,7 @@ dont copy our shit!</text>
 <instance part="U$2" gate="G$1" x="55.88" y="63.5" rot="R90"/>
 <instance part="SW1" gate="G$1" x="114.3" y="68.58"/>
 <instance part="FRAME1" gate="G$1" x="-55.88" y="-45.72"/>
-<instance part="FRAME1" gate="V" x="91.44" y="-45.72"/>
+<instance part="FRAME1" gate="G$2" x="91.44" y="-45.72"/>
 <instance part="J3" gate="G$1" x="17.78" y="-15.24"/>
 <instance part="R1" gate="G$1" x="162.56" y="15.24"/>
 </instances>
