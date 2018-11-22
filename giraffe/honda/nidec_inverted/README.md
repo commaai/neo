@@ -1,7 +1,7 @@
 Honda Inverted Giraffe
 ====
 
-Get your panda deeper into your Odyssey and TLX
+Get your panda deeper into your Odyssey, 2019 Honda Pilot, TLX and probably other cars with an "inverted" connector
 
 The switches
 ====
@@ -16,3 +16,5 @@ The 4 DIP switches control signals to the stock ADAS system
 
 - 4 -- ADAS power & ignition -> power & ignition
 
+
+Thanks to [@csouers](https://github.com/csouers) and [@energee](https://github.com/energee) for their input on this design
