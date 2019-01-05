@@ -7,7 +7,7 @@ neo
 
 The neo is an open source robotics research platform. It is powered by a OnePlus 3 smartphone and an [STM32F205](http://www.st.com/en/microcontrollers/stm32f2x5.html?querycriteria=productId=LN1433)-based CAN interface board, in a 3d-printed housing with active cooling.
 
-The neo platform includes [NEOS](https://github.com/commaai/neo/releases/tag/swag), a stripped down Android ROM designed for robustness and to get out of the way of your software. It also provides a modern linux environment for easy development.
+The neo platform includes [NEOS](https://github.com/commaai/eon-neos), a stripped down Android ROM designed for robustness and to get out of the way of your software. It also provides a modern linux environment for easy development.
 
 Why
 ------
