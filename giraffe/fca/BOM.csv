@@ -1,0 +1,10 @@
+Ref Des,Package,MPN,Qty,Link
+J1,3-pin,RASM722PX,1,https://www.digikey.com/products/en?keywords=RASM722PX
+J2,OBDII,,1,https://www.digikey.com/products/en?mpart=204-212ST&v=119
+J3,RJ45-RA,A-2004-2-4-LPS-N-R,1,https://www.digikey.com/product-detail/en/assmann-wsw-components/A-2004-2-4-LPS-N-R/AE10387-ND/2183638
+J4,CONN HEADER VERT,348250124,1,https://www.digikey.com/product-detail/en/0348250124/WM10326-ND/4504599/?itemSeq=281019679
+J5,MINI50 CONN RCPT,348240124,1,https://www.digikey.com/product-detail/en/molex-llc/0348240124/WM10324-ND/4504597
+SW1,SMD,CT204212ST-ND,1,https://www.digikey.com/products/en?mpart=204-212ST&v=119
+D1,SMD,ES2BA-13-F,1,https://www.digikey.com/product-detail/en/diodes-incorporated/ES2BA-13-F/ES2BA-FDICT-ND/815690
+R1, 0603R,ERJ-PA3J121V,1,https://www.digikey.com/product-detail/en/molex-llc/5600230421/WM8745CT-ND/3178491
+Pins,,5600230421,12,https://www.digikey.com/product-detail/en/molex-llc/5600230421/WM8745CT-ND/3178491
