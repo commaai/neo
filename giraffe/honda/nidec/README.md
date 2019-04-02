@@ -16,3 +16,4 @@ The 4 DIP switches control signals to the stock ADAS system
 
 - 4 -- ADAS power & ignition -> power & ignition
 
+<img src="https://github.com/commaai/neo/blob/master/giraffe/honda/nidec/nidec_switches.png">
