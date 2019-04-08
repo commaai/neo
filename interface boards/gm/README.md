@@ -26,7 +26,7 @@ Assembly steps:
 - Flash the board with
   - Connect 5v, ground, data+, data- to USB host. Use external 5v power
   - Don't use 5v linear regulator for USB power, it will get fried
-  - Pull low BOOT testpoint, through 1k resistor, to put board into DFU
+  - Pull high (to +3.3v net) BOOT testpoint, through 1k resistor, to put board into DFU
 - Print case.stl and connector.stl, use ABS filament
 - Install m3 heat insert into the case
 - Drill holes in the connector housing for easier insertion of data pins, from 0.7mm to 0.75mm
