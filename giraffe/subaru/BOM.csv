@@ -1,0 +1,24 @@
+Comma Access Point,,,,
+Ref Des,Package,Manufacture PN,Qty ,Link
+J1,26 Pin R/A,5018762640,1,https://www.digikey.com/product-detail/en/molex/501876-2640/WM6091-ND/1787792
+J2,10 Pin R/A,5018761040,1,https://www.digikey.com/products/en?keywords=501876-1040
+J3,2 Pin R/A,3-794618-2,1,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/3-794618-2/A33252-ND/1114990
+R1,DNP,DNP,DNP,
+R2,R0402,ERJ-2GEJ121X,1,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ121X/P120JCT-ND/146744
+R4,R0402,ERJ-2GE0R00X,1,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-2GEJ121X/P120JCT-ND/146744
+C1,DNP,DNP,DNP,
+S1,,G6S-2G DC12,1,https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2G-DC12/Z892-ND/20450
+"D1,D2",SMD,ES2BA-13-F,1,https://www.digikey.com/product-detail/en/diodes-incorporated/ES2BA-13-F/ES2BA-FDICT-ND/815690
+Panda Interface Point,,,,
+Ref Des,Package,Manufacture PN,Qty,Link
+J1,OBDII,,1,https://cn1514770021qfbj.en.alibaba.com/product/60598699808-804284542/J1962F_OBD2_16_Pin_Female_connector_OBD2_Socket.html?spm=a2700.8304367.prewdfa4cf.23.69f6cd4FYbHXy
+J2,RJ45 R/A,A-2004-2-4-LPS-N-R,1,https://www.digikey.com/product-detail/en/assmann-wsw-components/A-2004-2-4-LPS-N-R/AE10387-ND/2183638
+J3,10 Pin R/A,5018761040,1,https://www.digikey.com/products/en?keywords=501876-1040
+Wiring Harness ,,,,
+Ref Des,Package,Manufacture PN,Qty,Link
+,10 Pin Female,5016461000,2,https://www.digikey.com/product-detail/en/molex/5016461000/WM6058-ND/1787759
+,26 Pin Female,5016462600,1,https://www.digikey.com/short/ppwt0m
+,Molex Crimp Pins,5016471000,44,https://www.digikey.com/product-detail/en/molex/5016471000/WM6057CT-ND/1787797
+,16 Pin Male,1565476-1,1,https://www.mouser.com/ProductDetail/TE-Connectivity/1565476-1?qs=%2Fha2pyFadui1ySAjvI3C65g0g4Jm%252BaVqXRDP%252B89Dl7mDFImNcFF2Rg==
+,16 Pin Female ,1318386-1,1,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1318386-1/A106550-ND/2273493
+,TE Connectivity crimp pins,1123343-1,24,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/1123343-1/A107011CT-ND/3488572
