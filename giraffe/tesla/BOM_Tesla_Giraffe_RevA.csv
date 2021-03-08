@@ -1,0 +1,12 @@
+Line #,Quantity,Designator,Name,Footprint,Description,Supplier 1,Supplier Part Number 1,Supplier Unit Price 1,Supplier Subtotal 1
+
+"1","1","C1","1uF 50V","R_1206","Capacitor (Semiconductor SIM Model)","Digi-Key","478-1580-1-ND","0.39","0.39"
+"2","1","J3","2Pin","JST_PH_2PINS","","Digi-Key","455-1704-ND","0.17","0.17"
+"3","1","D1","67-1363-1-ND","LED_BICOLOR_1210","SMD Dual (Green-Yellow) Led in a 1210 package","Digi-Key","67-1361-1-ND","0.67","0.67"
+"4","1","R2","100K","R_1206","Semiconductor Resistor","Digi-Key","P100KLDKR-ND","0.10","0.1"
+"5","1","R1","120R","R_1206","Semiconductor Resistor","Digi-Key","P120HDKR-ND","0.10","0.1"
+"6","1","U1","ADG1436","TSSOP16","1.5 O On Resistance,  ±15 V/12 V/±5 V, iCMOS, Dual SPDT Switch","Digi-Key","ADG1436YRUZ-REEL7DKR-ND","7.60","7.6"
+"7","1","Q1","BC847","SOT23-3N","NPN Bipolar Transistor","Digi-Key","BC847A-7FDIDKR-ND","0.21","0.21"
+"8","3","R3, R4, R5","1K00","R_1206","Semiconductor Resistor","Digi-Key","541-3250-1-ND","0.48","1.44"
+"9","1","J2","OBD_FEMALE_PANDA","OBD_FEMALE","OBD Female connector","","","",""
+"10","1","J1","OBD_MALE_TESLA","OBD_MALE","OBD Male connector","","","",""
