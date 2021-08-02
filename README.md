@@ -1,7 +1,7 @@
 neo
 =====
 
-<b>NOTE: The NEO is deprecated. Check out the <a href="https://comma.ai/shop/products/comma-two-devkit">comma two</a> for the future</b>
+<b>NOTE: The NEO is deprecated. Check out the <a href="https://comma.ai/shop/products/three">comma three</a> for the future</b>
 
 <img src="https://github.com/commaai/neo/blob/master/neo.png">
 
