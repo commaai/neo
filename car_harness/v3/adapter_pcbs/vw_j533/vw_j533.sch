@@ -191,34 +191,32 @@
 &lt;ul&gt;&lt;li&gt;BADGERHACK_LOGO&lt;/li&gt;
 &lt;li&gt;FRAME-LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 </package>
-<package name="5018762240" urn="urn:adsk.eagle:footprint:44150453/1" library_version="1" library_locally_modified="yes">
-<pad name="P14" x="-2" y="1" drill="0.8"/>
-<pad name="P12" x="0" y="1" drill="0.8"/>
-<pad name="P16" x="-4" y="1" drill="0.8"/>
-<pad name="P10" x="2" y="1" drill="0.8"/>
-<pad name="P18" x="-6" y="1" drill="0.8"/>
-<pad name="P8" x="4" y="1" drill="0.8"/>
-<pad name="P20" x="-8" y="1" drill="0.8"/>
-<pad name="P6" x="6" y="1" drill="0.8"/>
-<pad name="P22" x="-10" y="1" drill="0.8"/>
-<pad name="P4" x="8" y="1" drill="0.8"/>
-<pad name="P2" x="10" y="1" drill="0.8"/>
-<pad name="P21" x="-10" y="-1" drill="0.8"/>
-<pad name="P19" x="-8" y="-1" drill="0.8"/>
-<pad name="P17" x="-6" y="-1" drill="0.8"/>
-<pad name="P15" x="-4" y="-1" drill="0.8"/>
-<pad name="P13" x="-2" y="-1" drill="0.8"/>
-<pad name="P11" x="0" y="-1" drill="0.8"/>
-<pad name="P9" x="2" y="-1" drill="0.8"/>
-<pad name="P7" x="4" y="-1" drill="0.8"/>
-<pad name="P5" x="6" y="-1" drill="0.8"/>
-<pad name="P3" x="8" y="-1" drill="0.8"/>
-<pad name="P1" x="10" y="-1" drill="0.8"/>
-<wire x1="-12" y1="2.3" x2="12" y2="2.3" width="0.127" layer="21"/>
-<wire x1="12" y1="2.3" x2="12" y2="-10.1" width="0.127" layer="21"/>
-<wire x1="12" y1="-10.1" x2="-12" y2="-10.1" width="0.127" layer="21"/>
-<wire x1="-12" y1="-10.1" x2="-12" y2="2.3" width="0.127" layer="21"/>
-<text x="-11.984" y="2.619" size="1.27" layer="21">&gt;NAME</text>
+<package name="5018762040" urn="urn:adsk.eagle:footprint:44957261/1" library_version="225">
+<pad name="P14" x="-3.27" y="1" drill="0.8"/>
+<pad name="P12" x="-1.27" y="1" drill="0.8"/>
+<pad name="P16" x="-5.27" y="1" drill="0.8"/>
+<pad name="P10" x="0.73" y="1" drill="0.8"/>
+<pad name="P18" x="-7.27" y="1" drill="0.8"/>
+<pad name="P8" x="2.73" y="1" drill="0.8"/>
+<pad name="P20" x="-9.27" y="1" drill="0.8"/>
+<pad name="P6" x="4.73" y="1" drill="0.8"/>
+<pad name="P4" x="6.73" y="1" drill="0.8"/>
+<pad name="P2" x="8.73" y="1" drill="0.8"/>
+<pad name="P19" x="-9.27" y="-1" drill="0.8"/>
+<pad name="P17" x="-7.27" y="-1" drill="0.8"/>
+<pad name="P15" x="-5.27" y="-1" drill="0.8"/>
+<pad name="P13" x="-3.27" y="-1" drill="0.8"/>
+<pad name="P11" x="-1.27" y="-1" drill="0.8"/>
+<pad name="P9" x="0.73" y="-1" drill="0.8"/>
+<pad name="P7" x="2.73" y="-1" drill="0.8"/>
+<pad name="P5" x="4.73" y="-1" drill="0.8"/>
+<pad name="P3" x="6.73" y="-1" drill="0.8"/>
+<pad name="P1" x="8.73" y="-1" drill="0.8"/>
+<wire x1="-10.73" y1="2.3" x2="10.73" y2="2.3" width="0.127" layer="21"/>
+<wire x1="10.73" y1="2.3" x2="10.73" y2="-10.1" width="0.127" layer="21"/>
+<wire x1="10.73" y1="-10.1" x2="-10.73" y2="-10.1" width="0.127" layer="21"/>
+<wire x1="-10.73" y1="-10.1" x2="-10.73" y2="2.3" width="0.127" layer="21"/>
+<text x="-10.714" y="2.619" size="1.27" layer="21">&gt;NAME</text>
 </package>
 <package name="TE_966871-1" urn="urn:adsk.eagle:footprint:44150535/1" library_version="211">
 <text x="-13.4163125" y="2.498290625" size="1.80578125" layer="25">&gt;NAME</text>
@@ -269,9 +267,9 @@
 <packageinstance name="DUMMY"/>
 </packageinstances>
 </package3d>
-<package3d name="5018762240" urn="urn:adsk.eagle:package:44150455/2" type="model" library_version="211">
+<package3d name="5018762040" urn="urn:adsk.eagle:package:44957262/2" type="model" library_version="225">
 <packageinstances>
-<packageinstance name="5018762240"/>
+<packageinstance name="5018762040"/>
 </packageinstances>
 </package3d>
 <package3d name="TE_966871-1" urn="urn:adsk.eagle:package:44150536/2" type="model" library_version="211">
@@ -418,7 +416,7 @@ dont copy our shit!</text>
 <rectangle x1="94.3737" y1="32.3469" x2="95.6691" y2="32.4231" layer="94"/>
 <rectangle x1="94.6785" y1="32.4231" x2="95.4405" y2="32.4993" layer="94"/>
 </symbol>
-<symbol name="5018762240" urn="urn:adsk.eagle:symbol:44150450/1" library_version="211">
+<symbol name="5018762040" urn="urn:adsk.eagle:symbol:44957260/1" library_version="225">
 <pin name="P11" x="-12.7" y="2.54" visible="pin" length="middle"/>
 <pin name="P9" x="-12.7" y="7.62" visible="pin" length="middle"/>
 <pin name="P7" x="-12.7" y="12.7" visible="pin" length="middle"/>
@@ -429,7 +427,6 @@ dont copy our shit!</text>
 <pin name="P15" x="-12.7" y="-7.62" visible="pin" length="middle"/>
 <pin name="P17" x="-12.7" y="-12.7" visible="pin" length="middle"/>
 <pin name="P19" x="-12.7" y="-17.78" visible="pin" length="middle"/>
-<pin name="P21" x="-12.7" y="-22.86" visible="pin" length="middle"/>
 <pin name="P2" x="12.7" y="27.94" visible="pin" length="middle" rot="R180"/>
 <pin name="P4" x="12.7" y="22.86" visible="pin" length="middle" rot="R180"/>
 <pin name="P6" x="12.7" y="17.78" visible="pin" length="middle" rot="R180"/>
@@ -440,11 +437,10 @@ dont copy our shit!</text>
 <pin name="P16" x="12.7" y="-7.62" visible="pin" length="middle" rot="R180"/>
 <pin name="P18" x="12.7" y="-12.7" visible="pin" length="middle" rot="R180"/>
 <pin name="P20" x="12.7" y="-17.78" visible="pin" length="middle" rot="R180"/>
-<pin name="P22" x="12.7" y="-22.86" visible="pin" length="middle" rot="R180"/>
 <wire x1="-7.62" y1="30.48" x2="7.62" y2="30.48" width="0.254" layer="94"/>
-<wire x1="7.62" y1="30.48" x2="7.62" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-25.4" x2="-7.62" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-25.4" x2="-7.62" y2="30.48" width="0.254" layer="94"/>
+<wire x1="7.62" y1="30.48" x2="7.62" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-20.32" x2="-7.62" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-20.32" x2="-7.62" y2="30.48" width="0.254" layer="94"/>
 <text x="-7.62" y="33.02" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="966871-1" urn="urn:adsk.eagle:symbol:44150534/1" library_version="211">
@@ -498,12 +494,12 @@ dont copy our shit!</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="5018762240" urn="urn:adsk.eagle:component:44150456/2" prefix="J" library_version="211">
+<deviceset name="5018762040" urn="urn:adsk.eagle:component:44957263/2" prefix="J" library_version="225">
 <gates>
-<gate name="G$1" symbol="5018762240" x="0" y="2.54"/>
+<gate name="G$1" symbol="5018762040" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="5018762240">
+<device name="" package="5018762040">
 <connects>
 <connect gate="G$1" pin="P1" pad="P1"/>
 <connect gate="G$1" pin="P10" pad="P10"/>
@@ -518,8 +514,6 @@ dont copy our shit!</text>
 <connect gate="G$1" pin="P19" pad="P19"/>
 <connect gate="G$1" pin="P2" pad="P2"/>
 <connect gate="G$1" pin="P20" pad="P20"/>
-<connect gate="G$1" pin="P21" pad="P21"/>
-<connect gate="G$1" pin="P22" pad="P22"/>
 <connect gate="G$1" pin="P3" pad="P3"/>
 <connect gate="G$1" pin="P4" pad="P4"/>
 <connect gate="G$1" pin="P5" pad="P5"/>
@@ -529,7 +523,7 @@ dont copy our shit!</text>
 <connect gate="G$1" pin="P9" pad="P9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:44150455/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44957262/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -600,8 +594,8 @@ dont copy our shit!</text>
 <part name="J1" library="comma.ai" library_urn="urn:adsk.eagle:library:11112255" deviceset="966871-1" device="" package3d_urn="urn:adsk.eagle:package:44150536/2">
 <attribute name="CPN" value="CAI-HARNESS-TE-966871-1"/>
 </part>
-<part name="J2" library="comma.ai" library_urn="urn:adsk.eagle:library:11112255" deviceset="5018762240" device="" package3d_urn="urn:adsk.eagle:package:44150455/2">
-<attribute name="CPN" value="CAI-HARNESS-MOLEX-5018762240"/>
+<part name="J2" library="comma.ai" library_urn="urn:adsk.eagle:library:11112255" deviceset="5018762040" device="" package3d_urn="urn:adsk.eagle:package:44957262/2">
+<attribute name="CPN" value="CAI-HARNESS-MOLEX-5018762040"/>
 </part>
 </parts>
 <sheets>
@@ -613,7 +607,6 @@ CAN1 - POWERTRAIN CAN
 CAN2 - EXTENDED CAN (CAR SIDE)
 CAN3 - DIAGNOSTIC CAN</text>
 <text x="17.78" y="25.4" size="1.778" layer="97">ALL PINS SHOULD BE PASS TRHOUGH SINCE THIS WILL WORK ON MANY CARS.</text>
-<text x="58.42" y="80.518" size="1.778" layer="97">5018762040</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -629,6 +622,7 @@ CAN3 - DIAGNOSTIC CAN</text>
 </instance>
 <instance part="J2" gate="G$1" x="66.04" y="109.22" smashed="yes">
 <attribute name="MPN" x="66.04" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="CPN" x="66.04" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
